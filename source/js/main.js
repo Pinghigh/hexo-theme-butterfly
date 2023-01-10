@@ -280,14 +280,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const scrollTask = btf.throttle(() => {
         const currentTop = window.scrollY || document.documentElement.scrollTop
         const isDown = scrollDirection(currentTop)
-        if (currentTop > 56) {
+        if (currentTop > 128) {
           if (isDown) {
-            if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
+            if (!$header.classList.contains('nav-unv')) 
+              $header.classList.add('nav-unv')
+            if ($header.classList.contains('nav-visible')) 
+              $header.classList.remove('nav-visible')
             if (isChatBtnShow && isChatShow === true) {
               chatBtnHide()
               isChatShow = false
             }
           } else {
+            if ($header.classList.contains('nav-unv')) $header.classList.remove('nav-unv')
             if (!$header.classList.contains('nav-visible')) $header.classList.add('nav-visible')
             if (isChatBtnHide && isChatShow === false) {
               chatBtnShow()
