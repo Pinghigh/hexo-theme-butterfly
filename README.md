@@ -24,28 +24,10 @@ Based on [hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody) t
 
 ### GIT
 
-> If you are in Mainland China, you can download in [Gitee](https://gitee.com/immyw/hexo-theme-butterfly.git)
-
 Stable branch [recommend]:
 
 ```
-git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-```
-
-Dev branch:
-
-```
-git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-```
-
-### NPM
-
-> It supports Hexo 5.0.0 or later
-
-In Hexo site root directory 
-
-```powershell
-npm i hexo-theme-butterfly
+git clone -b catppuccin https://github.com/pinghigh/hexo-theme-butterfly.git themes/butterfly
 ```
 
 ## ⚙ Configuration
@@ -99,8 +81,8 @@ npm i hexo-theme-butterfly
 
 ## ✨ Contributors
 
-<a href="https://github.com/jerryc127/hexo-theme-butterfly/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jerryc127/hexo-theme-butterfly" />
+<a href="https://github.com/pinghigh/hexo-theme-butterfly/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pinghigh/hexo-theme-butterfly" />
 </a>
 
 ## 📷 Screenshots
