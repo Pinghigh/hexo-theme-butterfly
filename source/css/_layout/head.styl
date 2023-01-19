@@ -125,7 +125,7 @@
       box-shadow: 0 5px 6px -5px rgba(133, 133, 133, .6)
 
       a
-        color: var(--white)
+        color: var(--font-color)
         text-shadow: none
 
   &.nav-fixed
@@ -133,7 +133,7 @@
       position: fixed
       /*top: -70px*/
       z-index: 91
-      background: rgba(255, 255, 255, .4)
+      background: rgba(255, 255, 255, .6)
       box-shadow: 0 5px 6px -5px alpha($grey, .6)
       transition: transform .2s ease-in-out, opacity .2s ease-in-out
       transition: top .2s ease-in-out, opacity .2s ease-in-out
@@ -141,7 +141,7 @@
       a,
       #site-name,
       #toggle-menu
-        color: var(--white)
+        color: var(--font-color)
         text-shadow: none
 
         &:hover
@@ -186,7 +186,7 @@
   .post-title
     @extend .limit-more-line
     margin-bottom: 8px
-    color: var(--white)
+    color: var(--font-color)
     font-weight: normal
     font-size: 2.5em
     line-height: 1.5
@@ -228,7 +228,7 @@
           display: none
 
     a
-      color: var(--light-grey)
+      color: var(--font-color)
       transition: all .3s ease-out
 
       &:hover
@@ -338,7 +338,7 @@
             display: inline-block
             padding: 8px 16px
             width: 100%
-            color: var(--white) !important
+            color: var(--font-color) !important
             text-shadow: none !important
 
   &.hide-menu
